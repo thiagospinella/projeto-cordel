@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+:root {
+    --font-cabeca: 'Passion One', cursive;
+    --font-poema: 'Sriracha', cursive;
+    --font-total: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vw;
+    background-color: rgba(128, 128, 128, 0.13);
+    font-family: var(--font-total);
+}
+
+header {
+    background-color: black;
+    min-height: 130px;
+    text-align: center ;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--font-cabeca);
+    font-size: 5vw;
+    font-variant: small-caps;
+    margin: auto;
+    min-width: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header > p > a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.514);
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font-poema);
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    color: white;
+}
+
+section.imagem01 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 0px black;
+}
+
+section.imagem02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    color: white; 
+}
+
+section.imagem02 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p {
+    color: rgba(255, 255, 255, 0.726);
+    min-height: 5px;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    text-decoration-color:  rgba(255, 255, 255, 0.514);
+}
+
+
